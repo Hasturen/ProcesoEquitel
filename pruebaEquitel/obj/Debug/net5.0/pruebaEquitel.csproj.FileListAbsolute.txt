@@ -1,0 +1,16 @@
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\bin\Debug\net5.0\pruebaEquitel.exe
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\bin\Debug\net5.0\pruebaEquitel.deps.json
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\bin\Debug\net5.0\pruebaEquitel.runtimeconfig.json
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\bin\Debug\net5.0\pruebaEquitel.runtimeconfig.dev.json
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\bin\Debug\net5.0\pruebaEquitel.dll
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\bin\Debug\net5.0\ref\pruebaEquitel.dll
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\bin\Debug\net5.0\pruebaEquitel.pdb
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.csprojAssemblyReference.cache
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.GeneratedMSBuildEditorConfig.editorconfig
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.AssemblyInfoInputs.cache
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.AssemblyInfo.cs
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.csproj.CoreCompileInputs.cache
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.dll
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\ref\pruebaEquitel.dll
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.pdb
+D:\DocumentosPersonales\OneDrive\Documents\Personal\CrecimientoLaboral\ProcesoEquitel\pruebaEquitel\obj\Debug\net5.0\pruebaEquitel.genruntimeconfig.cache
