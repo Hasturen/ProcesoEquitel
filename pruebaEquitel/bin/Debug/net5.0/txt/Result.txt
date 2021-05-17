@@ -1,0 +1,9 @@
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/17/2021 9:12:39 AM 
+
+La cantidad de palabras que terminan en N o n es de: 16737
+El numero de frases que contiene mas de 15 palabras es de: 1973
+El numero de parrafos en el texto es de: 1246
+La cantidad de caracteres diferentes a N o n es: 749777

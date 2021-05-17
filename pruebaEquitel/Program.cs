@@ -9,95 +9,69 @@ namespace pruebaEquitel
     {
         static void Main()
         {
-            var fileName = "Texto.txt";
+            var inputFileName = "Texto.txt";
+            var outputFileName = "Result.txt";
             var currentDirectory = Directory.GetCurrentDirectory();
 
-            var fileFullPath = Path.Combine(currentDirectory,"txt", fileName);
+            var inputFilePath = Path.Combine(currentDirectory,"txt", inputFileName);
+            var outputFilePath = Path.Combine(currentDirectory, "txt", outputFileName);
 
-            var text = AnalyseText(fileFullPath);
+            AnalyseText(inputFilePath, outputFilePath);
         }
-        static IEnumerable<string> AnalyseText(string filePath)
+        static void AnalyseText(string inputFilePath, string outputFilePath)
         {
-            var contadorN = 0;
+            int counter;
+
             List<string> results = new List<string>();
 
-            var readText = File.ReadAllText(filePath);
+            var inputFile = File.ReadAllText(inputFilePath);
 
-            var patternFinalN = @"\b\w+n\b";
+            File.AppendAllTextAsync(outputFilePath, $"\n\n\nResultados de la ejecucion realizada en la fecha {DateTime.UtcNow} \n\n");
 
-            contadorN = Regex.Matches(readText, patternFinalN).Count;
+            counter = wordsFinalN(inputFile);
+            File.AppendAllTextAsync(outputFilePath, $"La cantidad de palabras que terminan en N o n es de: {counter}\n");
+            
+            counter = fifteenWords(inputFile);
+            File.AppendAllTextAsync(outputFilePath, $"El numero de frases que contiene mas de 15 palabras es de: {counter}\n");
 
-            return results;
+            counter = paragraphCounter(inputFile);
+            File.AppendAllTextAsync(outputFilePath, $"El numero de parrafos en el texto es de: {counter}\n");
+
+            counter = distinctNChar(inputFile);
+            File.AppendAllTextAsync(outputFilePath, $"La cantidad de caracteres diferentes a N o n es: {counter}\n");
+        }
+        static int wordsFinalN (string file)
+        {
+            int contador;
+            var pattern = @"\b\w+n\b";
+            contador = Regex.Matches(file, pattern).Count;
+
+            return contador;
+        }
+        static int fifteenWords(string file)
+        {
+            int contador;
+            var pattern = @"(([\-_\('’""]*\b\w+\b[ \),:;\-_'’""]*){16,})\.[ ]";
+            contador = Regex.Matches(file, pattern).Count;
+
+            return contador;
+        }
+        static int paragraphCounter (string file)
+        {
+            int contador;
+            var pattern = @"\.\r";
+            contador = Regex.Matches(file, pattern).Count;
+
+            return contador;
+        }
+        static int distinctNChar(string file)
+        {
+            int contador;
+            var pattern = @"[^nN\s\p{P}]";
+            contador = Regex.Matches(file, pattern).Count;
+
+            return contador;
         }
     }
 }
-//using System;
-//using System.IO;
-//using System.Collections.Generic;
-//using Newtonsoft.Json;
 
-//namespace files_module
-//{
-//    class Program
-//    {
-//        static void Main(string[] args)
-//        {
-//            var currentDirectory = Directory.GetCurrentDirectory();
-//            var storesDirectory = Path.Combine(currentDirectory, "stores");
-
-//            var salesTotalDir = Path.Combine(currentDirectory, "salesTotalDir");
-//            Directory.CreateDirectory(salesTotalDir);
-
-//            var salesFiles = FindFiles(storesDirectory);
-
-//            var salesTotal = CalculateSalesTotal(salesFiles);
-
-//            File.AppendAllText(Path.Combine(salesTotalDir, "totals.txt"), $"{salesTotal}{Environment.NewLine}");
-//        }
-
-//        static IEnumerable<string> FindFiles(string folderName)
-//        {
-//            List<string> salesFiles = new List<string>();
-
-//            var foundFiles = Directory.EnumerateFiles(folderName, "*", SearchOption.AllDirectories);
-
-//            foreach (var file in foundFiles)
-//            {
-//                var extension = Path.GetExtension(file);
-
-//                if (extension == ".json")
-//                {
-//                    salesFiles.Add(file);
-//                }
-//            }
-
-//            return salesFiles;
-//        }
-
-//        static double CalculateSalesTotal(IEnumerable<string> salesFiles)
-//        {
-//            double salesTotal = 0;
-
-//            // Loop over each file path in salesFiles
-//            foreach (var file in salesFiles)
-//            {
-//                // Read the contents of the file
-//                string salesJson = File.ReadAllText(file);
-
-//                // Parse the contents as JSON
-//                SalesData data = JsonConvert.DeserializeObject<SalesData>(salesJson);
-
-//                // Add the amount found in the Total field to the salesTotal variable
-//                salesTotal += data.Total;
-//            }
-
-//            return salesTotal;
-//        }
-
-//        class SalesData
-//        {
-//            public double Total { get; set; }
-//        }
-
-//    }
-//}
