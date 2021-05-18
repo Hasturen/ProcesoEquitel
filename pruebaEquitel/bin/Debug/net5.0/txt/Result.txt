@@ -1,9 +1,54 @@
 
 
 
-Resultados de la ejecucion realizada en la fecha 5/17/2021 9:12:39 AM 
+Resultados de la ejecucion realizada en la fecha 5/18/2021 2:20:16 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 2:21:22 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 2:22:42 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 2:28:47 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 2:32:36 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 2:33:13 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 3:02:30 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 3:03:27 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 3:04:11 AM 
+
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/18/2021 3:07:14 AM 
 
 La cantidad de palabras que terminan en N o n es de: 16737
 El numero de frases que contiene mas de 15 palabras es de: 1973
 El numero de parrafos en el texto es de: 1246
-La cantidad de caracteres diferentes a N o n es: 749777
+La cantidad de caracteres diferentes a N o n es: 749710
