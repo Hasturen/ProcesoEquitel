@@ -88,3 +88,21 @@ La cantidad de palabras que terminan en N o n es de: 16737
 El numero de frases que contiene mas de 15 palabras es de: 1973
 El numero de parrafos en el texto es de: 1246
 La cantidad de caracteres diferentes a N o n es: 749710
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/19/2021 1:06:54 AM 
+
+El numero de frases que contiene mas de 15 palabras es de: 1973
+El numero de parrafos en el texto es de: 1246
+La cantidad de palabras que terminan en N o n es de: 16737
+La cantidad de caracteres diferentes a N o n es: 749710
+
+
+
+Resultados de la ejecucion realizada en la fecha 5/19/2021 1:14:36 AM 
+
+La cantidad de palabras que terminan en N o n es de: 16737
+El numero de frases que contiene mas de 15 palabras es de: 1973
+El numero de parrafos en el texto es de: 1246
+La cantidad de caracteres diferentes a N o n es: 749710

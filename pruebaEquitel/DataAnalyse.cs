@@ -77,9 +77,5 @@ namespace pruebaEquitel
             return counter;
         }
 
-        //static async Task<int> counterPattern (string file, string pattern )
-        //{
-        //    var match
-        //}
     }
 }
